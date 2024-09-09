@@ -1,0 +1,19 @@
+1. create virtual env & install dependencies from requirements.txt
+2. create api folder & add file __init__.py
+3. create utils folder with db.py & create instance of db
+4. inside utils folder, create token.py & initialize jwt config
+5. create config folder with config.py & setup configuration for dev & test/config env
+6. create models folder & implements each model
+7. create folder for each model & implement views.py
+8. implement create_app function & implement
+9. create runserver.py to run flask app on parent folder
+10. run the runserver.py file to start app
+
+
+topics covered
+- flask app
+- models
+- views
+- api documentation (Swagger)
+- jwt token
+- mysql connection with flask app
